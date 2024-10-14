@@ -7,23 +7,85 @@
     <title>BS Studio</title>
 </head>
 <body>
-    <header>
-        <h1 class="title">BS Studio</h1>
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+    <header id="top">
+        <h1 class="title">
+            <a href="#top"><img src="../img/" alt=""></a>
+        </h1>
+        <ul class="liste">
+            <li><a href="#presentation">Presentation</a></li>
+            <li><a href="#bandeau">Snicker</a></li>
+            <li><a href="#command">Command now!</a></li>
         </ul>
-        
     </header>
+
     <section class="presentation">
-
+        <div class="title">
+            <h1>BS Studio</h1>    
+            <h2 class="pres">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, commodi voluptatem, doloribus ipsam assumenda ut quasi at, architecto quae libero nulla accusamus? Corporis vitae dicta consectetur magnam minus excepturi? Similique.
+            </h2>
+        </div>
     </section>
+
     <section class="bandeau">
+        <div class="site-container">
+            <div class="article-container">
 
+                <!-- image 1 ligne 1 -->
+                <article class="article-card" id="a">
+                    <figure class="article-image">
+                        <img src="../img/nikeAirJordan1WhiteBlack_img2.jpg" alt="Jd1WandB_2" id="imgJWB_2" class="slider-img hidden">
+                        <img src="../img/nikeAirJordan1WhiteBlack.jpg" alt="Jd1WandB" id="imgJWB" class="slider-img active">
+                    </figure>
+                    <div class="article-content">
+                        <a href="#" class="card-category">Jordan 1 White and Black</a>
+                        <div class="fleches">
+                            <a class="flèche-g" id="g1"><img src="../img/arrow-removebg-preview-gauche.png" height="40px" onclick="prevImage()"></a>
+                            <a class="flèche-d" id="d1"><img src="../img/arrow-removebg-preview-droite.png" height="40px" onclick="nextImage()"></a>
+                        </div>
+                        <h3 class="card-title">New pattern / catching the soul of the 85'</h3>
+                        <p class="card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat sapien blandit nunc elementum dapibus.</p>
+                    </div>
+                </article>
+                <article class="article-card" id="b">
+                    <figure class="article-image">
+                        <img src="../img/nikeAirJordan1Chicago_2.jpg" alt="Jd1C_2" id="imgJC_2" class="slider-img hidden">
+                        <img src="../img/nikeAirJordan1Chicago.jpg" alt="Jd1C" id="imgJC" class="slider-img active">
+                    </figure>
+                    <div class="article-content">
+                        <a href="#" class="card-category">Jordan 1 White and Black</a>
+                        <div class="fleches">
+                            <a class="flèche-g" id="g1"><img src="../img/arrow-removebg-preview-gauche.png" height="40px" onclick="prevImage()"></a>
+                            <a class="flèche-d" id="d1"><img src="../img/arrow-removebg-preview-droite.png" height="40px" onclick="nextImage()"></a>
+                        </div>
+                        <h3 class="card-title">New pattern / catching the soul of the 85'</h3>
+                        <p class="card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat sapien blandit nunc elementum dapibus.</p>
+                    </div>
+                </article>
+                <article class="article-card" id="b">
+                    <figure class="article-image">
+                        <img src="../img/nikeAirJordan1Fragement.jpg" alt="Jd1C_2" id="imgJC_2" class="slider-img hidden">
+                        <img src="../img/HANDMADENIKeAIRJORDAN1.jpg" alt="Jd1C" id="imgJC" class="slider-img active">
+                    </figure>
+                    <div class="article-content">
+                        <a href="#" class="card-category">Jordan 1 White and Black</a>
+                        <div class="fleches">
+                            <a class="flèche-g" id="g1"><img src="../img/arrow-removebg-preview-gauche.png" height="40px" onclick="prevImage()"></a>
+                            <a class="flèche-d" id="d1"><img src="../img/arrow-removebg-preview-droite.png" height="40px" onclick="nextImage()"></a>
+                        </div>
+                        <h3 class="card-title">New pattern / catching the soul of the 85'</h3>
+                        <p class="card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat sapien blandit nunc elementum dapibus.</p>
+                    </div>
+                </article>
+
+                <!-- Additional articles go here... -->
+            </div>
+        </div>
     </section>
+
     <footer>
 
     </footer>
+    <script src="../JS/main.js"></script>
 </body>
 </html>
